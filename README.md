@@ -2,7 +2,9 @@
 
 ## What you built? 
 
-For my hack-a-thing, I tried to build __custom shaders__ in Unity through code and shader graphs! Shaders are used to calculate the color of every rendered pixel based on lighting and Materials.
+* For my hack-a-thing, I tried to build __custom shaders__ in Unity through code and shader graphs! 
+* Shaders are used to calculate the color of every rendered pixel based on lighting and Materials.
+* Spent a lot of time looking at documentation for both the CG/HLSL shader language.
 
 __Screenshots!__
 ![Screenshot1](imgs/snip01.PNG)
@@ -18,6 +20,7 @@ I worked on this project alone and did all the work with writing shaders, creati
 
 __What worked:__
 1. Creating a custom unlit shader that can be modified
+2. Took a lot of trial and error to implement the new HLSL shader from old CG shader
 2. Creating custom shader graphs
 3. Using different shader graph nodes to blend, multiply, color, etc. 
 
